@@ -1,0 +1,25 @@
+<?php
+require_once "configuracao.phtml";
+?>
+<html>
+	<body align='center'>
+            <form name="Login" itemid="login" action="">
+                <table>
+                    <tr>
+                        <td>Usuario:</td>
+                        <td><input type=text name=txtUsuario itemid="txtUsuario"></td>    
+                    </tr>
+                    <tr>
+                        <td>Senha:</td>
+                        <td><input type=password name=txtPass itemid="txtPass"></td>    
+                    </tr>
+                    <tr>
+                        <td></td>                            
+                        <td><input type=Submit value="OK" name=btnOk itemid="btnOk">
+                        <input type=button value="Cancelar" name=btnCancelar itemid="btnCancelar">
+                        <input type=button value="Limpar"name=btnLimpa itemid="btnLimpa"></td>
+                    </tr>
+                </table>
+            </form>  
+	</body>
+</html>

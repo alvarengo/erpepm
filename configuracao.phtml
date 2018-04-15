@@ -1,0 +1,15 @@
+<?php
+        $GLOBALS['hostmysql']="127.0.1.1";        //maquina que encontra-se o mysq�
+        $GLOBALS['bancodedados']="ERPEPM";        //nome da base do sistema    
+        $GLOBALS['versao']="1.0";                     
+       //Validacao do SO
+       if( PHP_OS == "WINNT")
+       {    
+            require_once "../funcoes/functions.phtml";
+       }
+       else
+       {
+            require_once "/var/www/html/ERPEPM/funcoes/functions.phtml";  //funcoes do sistema
+       }
+        $GLOBALS['servidormysql']="127.0.1.1";    //ip do servidor 
+?>
